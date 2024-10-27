@@ -13,3 +13,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: iranianarchitecturallegacy-child
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+body {
+  background-color: #999;
+}
+
+.wp-block-site-tagline,
+.has-link-color,
+time a,
+.has-small-font-size,
+.wp-block-post-terms__prefix,
+figcaption {
+  color: #fff !important;
+}
