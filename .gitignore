@@ -5,7 +5,7 @@
 /w3tc-config
 
 # ignore these plugins
-# /plugins/
+/plugins/title-remover
 
 # ignore node dependency directories
 node_modules

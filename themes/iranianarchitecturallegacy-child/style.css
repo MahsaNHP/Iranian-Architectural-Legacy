@@ -51,3 +51,8 @@ header li .wp-block-navigation-item__content:focus {
 .custom-logo {
   width: 4rem;
 }
+
+.wp-block-spacer {
+  display: none;
+}
+
