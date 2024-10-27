@@ -27,4 +27,19 @@ figcaption {
   color: #fff !important;
 } */
 
+header.wp-block-template-part {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header ul .wp-block-navigation__submenu-container  {
+  min-width: 15rem !important;
+}
+
+header ul .wp-block-navigation__submenu-container a:hover {
+  text-decoration: none;
+}
+
 
