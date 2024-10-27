@@ -34,12 +34,20 @@ header.wp-block-template-part {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header ul .wp-block-navigation__submenu-container  {
+header ul .wp-block-navigation__submenu-container {
+  background-color: #333 !important;
+  color: #ccc !important;
   min-width: 15rem !important;
 }
 
-header ul .wp-block-navigation__submenu-container a:hover {
+header ul li a:hover, ul .wp-block-navigation__submenu-container a:hover {
   text-decoration: none;
 }
 
+header li .wp-block-navigation-item__content:focus {
+  outline: none !important;
+}
 
+.custom-logo {
+  width: 4rem;
+}
